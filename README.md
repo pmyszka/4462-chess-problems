@@ -13,6 +13,12 @@ npm install
 npm start
 ```
 
+You can also run it inside a Docker container
+```
+docker build -t chess-problems .
+docker run -d -p 80:80 chess-problems
+```
+
 ### Possible Errors in Book
 
 * Problem [1071](http://danielmoore.us/chess-puzzles?id=1071) seems to be mate-in-one (Nc7). I've re-labeled it from mate-in-two to mate-in-one.
